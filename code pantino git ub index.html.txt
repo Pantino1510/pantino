@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pantino — Destination Management à Paris</title>
+  <meta name="description" content="Pantino est une DMC basée à Paris. Séjours sur mesure pour entreprises, groupes et familles. Concierge, transferts, événements, incentives." />
+  <meta property="og:title" content="Pantino — DMC Paris" />
+  <meta property="og:description" content="Séjours sur mesure • MICE • Groupes • VIP" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0c10" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b0c10;--card:#11131a;--ink:#e8ebf1;--muted:#a7afc0;--accent:#5ee1a9;--accent-2:#8ab4ff;--border:#1f2330}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,ui-sans-serif;
+      background: radial-gradient(1200px 600px at 80% -10%, rgba(94,225,169,.12), transparent 60%),
+                  radial-gradient(900px 500px at -10% 110%, rgba(138,180,255,.10), transparent 60%),
+                  var(--bg);
+      color:var(--ink);line-height:1.6}
+    .container{max-width:1100px;margin:0 auto;padding:clamp(16px,2vw,28px)}
+    header{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo-fallback{
+      display:grid;place-items:center;
+      width:44px;height:44px;border-radius:12px;
+      background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      color:#0b0c10;font-weight:800;letter-spacing:.5px
+    }
+    .brand-title{font-weight:800;font-size:18px}
+    .lang{font-size:12px;color:var(--muted)}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:500}
+    nav a:hover{color:var(--ink)}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;padding:50px 0}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border:1px solid var(--border);border-radius:999px;color:var(--muted);font-size:13px}
+    h1{font-size:clamp(32px,6vw,56px);line-height:1.1;margin:14px 0 8px}
+    .lead{font-size:clamp(16px,2.2vw,18px);color:var(--muted);max-width:58ch}
+    .cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}
+    .btn{appearance:none;border:none;border-radius:14px;padding:14px 18px;font-weight:700;cursor:pointer;transition:.2s transform,.2s opacity;text-decoration:none;display:inline-flex;align-items:center;gap:10px}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--accent);color:#0b0c10}
+    .btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--border)}
+    .shot{background:linear-gradient(180deg,#161926, #0d0f15);border:1px solid var(--border);border-radius:22px;padding:18px}
+    .shot-inner{height:340px;border-radius:16px;background:repeating-linear-gradient(45deg, rgba(255,255,255,.06) 0 10px, rgba(255,255,255,.03) 10px 20px);
+      display:grid;place-items:center;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:16px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px}
+    .card h3{margin:6px 0 8px;font-size:18px}
+    .card p{margin:0;color:var(--muted)}
+    .section{padding:36px 0}
+    .list{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .tag{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:6px 10px;color:var(--muted);font-size:13px;margin-right:6px;margin-bottom:6px}
+    footer{border-top:1px dashed var(--border);margin-top:40px;padding:24px 0;color:var(--muted);font-size:14px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.list{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <!-- Fallback provisoire sans image encodée -->
+        <div class="logo-fallback">P</div>
+        <div>
+          <div class="brand-title">Pantino</div>
+          <div class="lang">Destination Management • Paris</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#why">Pourquoi nous</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div>
+        <span class="badge">DMC • MICE • Groupes • VIP</span>
+        <h1>Votre partenaire local pour des séjours <em>sur mesure</em> à Paris</h1>
+        <p class="lead">Nous organisons des voyages d'entreprise, incentives, événements et séjours privés haut de gamme. Coordination complète : itinéraires, hébergements, transferts, restauration et expériences exclusives.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="https://wa.me/33651269842?text=Bonjour%20Pantino%2C%20je%20souhaite%20organiser%20un%20s%C3%A9jour%20%C3%A0%20Paris%20%28dates%2C%20taille%20du%20groupe%2C%20budget%29" target="_blank" rel="noopener">💬 Discuter sur WhatsApp</a>
+          <a class="btn btn-ghost" href="mailto:nicolas.pantino@gmail.com?subject=Demande%20Pantino%20DMC&body=Bonjour%2C%20nous%20souhaitons%20un%20projet%20%C3%A0%20Paris.%20D%C3%A9tails%20%3A%20dates%2C%20participants%2C%20budget.%20Merci%20!">✉️ Envoyer un email</a>
+        </div>
+      </div>
+      <div class="shot">
+        <div class="shot-inner">
+          <div>
+            <div style="text-align:center;font-weight:600;margin-bottom:8px">Mini aperçu de parcours</div>
+            <div class="grid">
+              <div class="card"><h3>Transferts</h3><p>Flotte premium, accueil multilingue</p></div>
+              <div class="card"><h3>Hôtels &amp; lieux</h3><p>Partenaires triés, tarifs négociés</p></div>
+              <div class="card"><h3>Expériences</h3><p>Privatisations, coulisses, artisans</p></div>
+              <div class="card"><h3>Restauration</h3><p>Menus adaptés, halāl/végétarien</p></div>
+              <div class="card"><h3>Staff &amp; guides</h3><p>FR/EN/ES • coordination 24/7</p></div>
+              <div class="card"><h3>Facturation</h3><p>SARL France • TVA/contrats</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="list">
+        <div class="card"><h3>MICE &amp; Corporate</h3><p>Séminaires, incentives, comités de direction, salons. Logistique complète et gestion des imprévus.</p></div>
+        <div class="card"><h3>Groupes loisirs</h3><p>Programmes adaptés aux familles et groupes, du classique à l'ultra-personnalisé.</p></div>
+        <div class="card"><h3>Conciergerie VIP</h3><p>Chauffeurs, tables rares, coulisses de musées, rooftops, expériences signature.</p></div>
+        <div class="card"><h3>Production événements</h3><p>Repérages, scénographie légère, technique, hôtesses, sécurité.</p></div>
+      </div>
+    </section>
+
+    <section id="why" class="section">
+      <h2>Pourquoi Pantino</h2>
+      <p class="lead">Souplesse d'une boutique DMC, réseau local fort, triple langue (FR/EN/ES) et culture du détail.</p>
+      <div style="margin-top:10px">
+        <span class="tag">Réponse rapide</span>
+        <span class="tag">Devis clair</span>
+        <span class="tag">Réseau premium</span>
+        <span class="tag">Facturation FR</span>
+        <span class="tag">Qualité/prix</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Parlez-nous de vos dates, du nombre de participants et du budget estimatif. Nous revenons vers vous sous 24h ouvrées.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://wa.me/33651269842?text=Bonjour%20Pantino%2C%20nous%20avons%20un%20projet%20%3A%20%5Bdates%5D%20%2F%20%5Bnbr%20pers%5D%20%2F%20%5Bbudget%5D" target="_blank" rel="noopener">💬 WhatsApp direct</a>
+        <a class="btn btn-ghost" href="mailto:nicolas.pantino@gmail.com?subject=Projet%20Paris%20-%20Pantino&body=Bonjour%2C%20voici%20notre%20projet%20%3A%20%5Bdates%5D%20%2F%20%5Bnbr%20pers%5D%20%2F%20%5Bbudget%5D.%20Cordialement">✉️ Email</a>
+      </div>
+      <p style="color:var(--muted);font-size:14px;margin-top:12px">Astuce : sauvegardez ce lien dans vos favoris pour nous écrire en 1 clic.</p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Pantino — DMC Paris • FR / EN / ES • Pantin, France
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
